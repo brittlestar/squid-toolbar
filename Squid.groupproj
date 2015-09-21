@@ -1,0 +1,72 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{A4C73CE0-0D52-4B50-8D24-7C39689E8CD3}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Hook\SquidHook.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Enjoy\Enjoy.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Squid\Squid.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\SquidTests.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="SquidHook">
+			<MSBuild Projects="Hook\SquidHook.dproj"/>
+		</Target>
+		<Target Name="SquidHook:Clean">
+			<MSBuild Projects="Hook\SquidHook.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="SquidHook:Make">
+			<MSBuild Projects="Hook\SquidHook.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Enjoy">
+			<MSBuild Projects="Enjoy\Enjoy.dproj"/>
+		</Target>
+		<Target Name="Enjoy:Clean">
+			<MSBuild Projects="Enjoy\Enjoy.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Enjoy:Make">
+			<MSBuild Projects="Enjoy\Enjoy.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Squid">
+			<MSBuild Projects="Squid\Squid.dproj"/>
+		</Target>
+		<Target Name="Squid:Clean">
+			<MSBuild Projects="Squid\Squid.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Squid:Make">
+			<MSBuild Projects="Squid\Squid.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="SquidTests">
+			<MSBuild Projects="Test\SquidTests.dproj"/>
+		</Target>
+		<Target Name="SquidTests:Clean">
+			<MSBuild Projects="Test\SquidTests.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="SquidTests:Make">
+			<MSBuild Projects="Test\SquidTests.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="SquidHook;Enjoy;Squid;SquidTests"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="SquidHook:Clean;Enjoy:Clean;Squid:Clean;SquidTests:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="SquidHook:Make;Enjoy:Make;Squid:Make;SquidTests:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

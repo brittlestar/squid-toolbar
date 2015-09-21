@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2007-03-08 20:49\n"
+"PO-Revision-Date: 2006-08-18 17:24+0100\n"
+"Last-Translator: a <dev99@voila.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. MainForm..Caption
+#: main.dfm:7
+msgid "Squid"
+msgstr "Squid"
+
+#. MainForm..Font.Name
+#. MainForm..PanelLicense..Label1..Font.Name
+#. MainForm..PanelLicense..LicenseLabel..Font.Name
+#. MainForm..JvCaptionButton1..Font.Name
+#. Form3..Font.Name
+#. RegisterForm..Font.Name
+#. RegisterForm..GroupBox3..Label3..Font.Name
+#: main.dfm:14 main.dfm:58 main.dfm:72 main.dfm:99 register.dfm:12
+#: registerinfos.dfm:13 registerinfos.dfm:128
+msgid "MS Sans Serif"
+msgstr "MS Sans Serif"
+
+#. MainForm..PanelLicense..Label1..Caption
+#: main.dfm:54
+msgid "Trial period has expired !"
+msgstr "Période d'essai expirée !"
+
+#. MainForm..PanelLicense..LicenseLabel..Caption
+#: main.dfm:68
+msgid "Click here to purchase your license"
+msgstr "Cliquez ici afin d'acheter votre licence"
+
+#. MainForm..IdHTTPCheckUpdates..Request.ContentType
+#: main.dfm:87
+msgid "text/html"
+msgstr ""
+
+#. MainForm..IdHTTPCheckUpdates..Request.Accept
+#: main.dfm:88
+msgid "text/html, */*"
+msgstr ""
+
+#. MainForm..IdHTTPCheckUpdates..Request.UserAgent
+#: main.dfm:90
+msgid "Mozilla/3.0 (compatible; Indy Library)"
+msgstr ""
+
+#. MainForm..JvAppRegistryStorage1..StorageOptions.BooleanStringTrueValues
+#: main.dfm:125
+msgid "TRUE, YES, Y"
+msgstr ""
+
+#. MainForm..JvAppRegistryStorage1..StorageOptions.BooleanStringFalseValues
+#: main.dfm:126
+msgid "FALSE, NO, N"
+msgstr ""
+
+#. MainForm..JvAppRegistryStorage1..Root
+#: main.dfm:128
+msgid "%NONE%"
+msgstr ""
+
+#. Form3..Caption
+#. RegisterForm..Caption
+#: register.dfm:7 registerinfos.dfm:6
+msgid "Registration"
+msgstr "Enregistrement"
+
+#. Form3..GroupBox1..Caption
+#. RegisterForm..GroupBox1..Caption
+#: register.dfm:23 registerinfos.dfm:28
+msgid "Registration Informations"
+msgstr "Informations d'enregistrement"
+
+#. Form3..GroupBox1..Label1..Caption
+#. RegisterForm..GroupBox1..Label1..Caption
+#: register.dfm:31 registerinfos.dfm:36
+msgid "Name:"
+msgstr "Nom:"
+
+#. Form3..GroupBox1..Label2..Caption
+#. RegisterForm..GroupBox1..Label2..Caption
+#: register.dfm:39 registerinfos.dfm:44
+msgid "Key:"
+msgstr "Clé:"
+
+#. RegisterForm..Panel1..Button1..Caption
+#: registerinfos.dfm:74
+msgid "Validate"
+msgstr "Valider"
+
+#. RegisterForm..Panel1..Button2..Caption
+#: registerinfos.dfm:85
+msgid "Close"
+msgstr "Fermer"
+
+#. RegisterForm..GroupBox2..Caption
+#: registerinfos.dfm:97
+msgid "Registration Status"
+msgstr "Enregistrement"
+
+#. RegisterForm..GroupBox3..Caption
+#: registerinfos.dfm:114
+msgid "License informations"
+msgstr "Informations de licence"
+
+#. RegisterForm..GroupBox3..Label3..Caption
+#: registerinfos.dfm:124
+msgid "Get your license here !"
+msgstr "Obtenez votre licence !"
+
+#: main.pas:394
+msgid "&Remove"
+msgstr "&Retirer"
+
+#: main.pas:471
+msgid "Web"
+msgstr "Web"
+
+#: main.pas:488
+msgid "Help"
+msgstr "Aide"
+
+#: main.pas:508
+msgid "> Update <"
+msgstr "> Nouveau <"
+
+#: main.pas:529
+msgid "License"
+msgstr "Licence"
+
+#: registerinfos.pas:54
+msgid "Registered !"
+msgstr "Engistrement validé !"
+
+#: registerinfos.pas:57
+msgid "Invalid registering informations"
+msgstr "Informations d'enregistrement erronées"

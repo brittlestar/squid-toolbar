@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2007-03-08 20:49\n"
+"PO-Revision-Date: 2005-10-17 12:03+0100\n"
+"Last-Translator: a <a@a.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. MainForm..Caption
+#: main.dfm:7
+msgid "Squid Help Wizard"
+msgstr "Squid Aide Pas-à-Pas"
+
+#. MainForm..Font.Name
+#: main.dfm:12
+msgid "MS Sans Serif"
+msgstr "MS Sans Serif"
+
+#. MainForm..JvWizard1..ButtonStart.Caption
+#: main.dfm:26
+msgid "To &Start Page"
+msgstr "Vers la &première page"
+
+#. MainForm..JvWizard1..ButtonLast.Caption
+#: main.dfm:29
+msgid "To &Last Page"
+msgstr "Vers la &dernière page"
+
+#. MainForm..JvWizard1..ButtonBack.Caption
+#: main.dfm:32
+msgid "< &Back"
+msgstr "< &Précédent"
+
+#. MainForm..JvWizard1..ButtonNext.Caption
+#: main.dfm:35
+msgid "&Next >"
+msgstr "&Suivant >"
+
+#. MainForm..JvWizard1..ButtonFinish.Caption
+#: main.dfm:38
+msgid "&Finish"
+msgstr "&Terminer"
+
+#. MainForm..JvWizard1..ButtonCancel.Caption
+#: main.dfm:41
+msgid "Cancel"
+msgstr "Annuler"
+
+#. MainForm..JvWizard1..ButtonHelp.Caption
+#: main.dfm:45
+msgid "&Help"
+msgstr "&Aide"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Header.Title.Text
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Header.Title.Text
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Header.Title.Text
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Header.Title.Text
+#: main.dfm:56 main.dfm:746 main.dfm:1228 main.dfm:1697
+msgid "Squid Wizard"
+msgstr "Squid Wizard"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Header.Title.Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Header.Subtitle.Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Panel2..Label2..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Panel2..Label1..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Header.Title.Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Header.Subtitle.Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Label3..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label16..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label17..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label18..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label19..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label20..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Header.Title.Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Header.Subtitle.Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Label6..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Label7..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Panel11..Label8..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Panel11..Label9..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Panel11..Label4..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Header.Title.Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Header.Subtitle.Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Panel8..Label12..Font.Name
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Panel8..Label13..Font.Name
+#: main.dfm:61 main.dfm:69 main.dfm:90 main.dfm:105 main.dfm:751 main.dfm:759
+#: main.dfm:780 main.dfm:1162 main.dfm:1176 main.dfm:1190 main.dfm:1204
+#: main.dfm:1218 main.dfm:1233 main.dfm:1241 main.dfm:1262 main.dfm:1277
+#: main.dfm:1658 main.dfm:1672 main.dfm:1687 main.dfm:1702 main.dfm:1710
+#: main.dfm:1733 main.dfm:1748
+msgid "Arial"
+msgstr "Arial"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Header.Subtitle.Text
+#: main.dfm:64
+msgid "Step 1: Display Squid"
+msgstr "Etape 1 : Faire appaître Squid"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Caption
+#: main.dfm:71
+msgid "JvWizardInteriorPage1"
+msgstr "JvWizardInteriorPage1"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Panel2..Label2..Caption
+#: main.dfm:86
+msgid "Just click on the middle button of your mouse,"
+msgstr "Cliquez simplement sur le bouton du milieux de votre souris,"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage1..Panel2..Label1..Caption
+#: main.dfm:101
+msgid "and Squid appears under your mouse cursor !"
+msgstr "et Squid apparaît sous le curseur de votre souris !"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Header.Subtitle.Text
+#: main.dfm:754
+msgid "Step 2 : Use it !"
+msgstr "Etape 2 : Utiliser Squid !"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Caption
+#: main.dfm:761
+msgid "JvWizardInteriorPage2"
+msgstr "JvWizardInteriorPage2"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Label3..Caption
+#: main.dfm:776
+msgid "Now, click an icon to launch !"
+msgstr "Maintenant, cliquez sur une icône !"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label16..Caption
+#: main.dfm:1158
+msgid "Tip:"
+msgstr "Astuce :"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label17..Caption
+#: main.dfm:1172
+msgid "You can use mouse wheel to move icons"
+msgstr "Vous pouvez utiliser la roulette de votre souris pour déplacer"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label18..Caption
+#: main.dfm:1186
+msgid "up or down"
+msgstr " les icônes vers le haut ou vers le bas"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label19..Caption
+#: main.dfm:1200
+msgid "After a launch, Squid disappears. Just click "
+msgstr "Après un lancement d'application, Squid disparaît. Cliquer"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage2..Panel1..Panel10..Label20..Caption
+#: main.dfm:1214
+msgid "again on middle button, if needed"
+msgstr "à nouveau sur le bouton du milieu, en cas de besoin"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Header.Subtitle.Text
+#: main.dfm:1236
+msgid "Step 3: Customize Squid"
+msgstr "Etape 3 : Personnaliser Squid"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Caption
+#: main.dfm:1243
+msgid "JvWizardInteriorPage3"
+msgstr "JvWizardInteriorPage3"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Label6..Caption
+#: main.dfm:1258
+msgid "Now, you can drag'n'drop shorcuts or files "
+msgstr "Maintenant, vous pouvez glisser/déposer n'importe quel raccourcis"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Label7..Caption
+#: main.dfm:1273
+msgid "from anywhere !"
+msgstr "depuis n'importe où !"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Panel11..Label8..Caption
+#: main.dfm:1654
+msgid "To select a target position, drag'n'drop files"
+msgstr "Pour sélectionner un emplacement cible, glisser/déposer"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Panel11..Label9..Caption
+#: main.dfm:1668
+msgid "to dark gray stripes"
+msgstr "sur les bandes gris foncées"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage3..Panel5..Panel11..Label4..Caption
+#: main.dfm:1683
+msgid "Tip: "
+msgstr "Astuce :"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Header.Subtitle.Text
+#: main.dfm:1705
+msgid "Step 4: Hide your Squid"
+msgstr "Etape 4 : Faire disparaître Squid"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Caption
+#: main.dfm:1713
+msgid "JvWizardInteriorPage4"
+msgstr "JvWizardInteriorPage4"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Panel8..Label12..Caption
+#: main.dfm:1729
+msgid "To close Squid, just click on mouse middle button"
+msgstr "Pour fermer Squid, cliquez sur le bouton du milieu"
+
+#. MainForm..JvWizard1..JvWizardInteriorPage4..Panel8..Label13..Caption
+#: main.dfm:1744
+msgid "Simple, no ?"
+msgstr "Simple, non ?"

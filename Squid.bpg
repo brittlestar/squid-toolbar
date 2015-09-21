@@ -1,0 +1,32 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = Squid.exe Squid.dll Enjoy.exe SerialMaker.exe MutexTest.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+Squid.dll: hook\Squid.dpr
+  $(DCC)
+
+MutexTest.exe: MutexTest\MutexTest.dpr
+  $(DCC)
+
+Enjoy.exe: Enjoy\Enjoy.dpr
+  $(DCC)
+
+SerialMaker.exe: Serial\SerialMaker.dpr
+  $(DCC)
+
+Squid.exe: Squid\Squid.dpr
+  $(DCC)
+
+
